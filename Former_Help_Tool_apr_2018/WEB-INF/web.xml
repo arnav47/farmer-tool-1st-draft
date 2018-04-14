@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ULogin</servlet-name>
+		<servlet-class>com.user.ULogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ULogin</servlet-name>
+		<url-pattern>/ULogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.user.Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>   
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Land_Suggest_Process</servlet-name>
+		<servlet-class>com.user.Land_Suggest_Process</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Land_Suggest_Process</servlet-name>   
+		<url-pattern>/Land_Suggest_Process</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>   
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ExcellUpload</servlet-name>
+		<servlet-class>com.admin.ExcellUpload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExcellUpload</servlet-name>   
+		<url-pattern>/ExcellUpload</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ExcellUpload2</servlet-name>
+		<servlet-class>com.admin.ExcellUpload2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExcellUpload2</servlet-name>   
+		<url-pattern>/ExcellUpload2</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Extract_Adhar</servlet-name>
+		<servlet-class>com.admin.Extract_Adhar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Extract_Adhar</servlet-name>   
+		<url-pattern>/Extract_Adhar</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ExcellUpload3</servlet-name>
+		<servlet-class>com.admin.ExcellUpload3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExcellUpload3</servlet-name>   
+		<url-pattern>/ExcellUpload3</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ExcellUpload4</servlet-name>
+		<servlet-class>com.admin.ExcellUpload4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExcellUpload4</servlet-name>   
+		<url-pattern>/ExcellUpload4</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ExcellUpload5</servlet-name>
+		<servlet-class>com.admin.ExcellUpload5</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExcellUpload5</servlet-name>   
+		<url-pattern>/ExcellUpload5</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Adhar_Create</servlet-name>
+		<servlet-class>com.admin.Adhar_Create</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Adhar_Create</servlet-name>   
+		<url-pattern>/Adhar_Create</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Phani_Create</servlet-name>
+		<servlet-class>com.admin.Phani_Create</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Phani_Create</servlet-name>   
+		<url-pattern>/Phani_Create</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>DeleteAdhar</servlet-name>
+		<servlet-class>com.admin.DeleteAdhar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteAdhar</servlet-name>
+		<url-pattern>/DeleteAdhar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeletePhani</servlet-name>
+		<servlet-class>com.admin.DeletePhani</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeletePhani</servlet-name>
+		<url-pattern>/DeletePhani</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditAdhar</servlet-name>
+		<servlet-class>com.admin.EditAdhar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditAdhar</servlet-name>
+		<url-pattern>/EditAdhar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditPhani</servlet-name>
+		<servlet-class>com.admin.EditPhani</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditPhani</servlet-name>
+		<url-pattern>/EditPhani</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Yield_Demand_Calculation</servlet-name>
+		<servlet-class>com.user.Yield_Demand_Calculation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Yield_Demand_Calculation</servlet-name>
+		<url-pattern>/Yield_Demand_Calculation</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>OtpLogin</servlet-name>
+		<servlet-class>com.user.OtpLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OtpLogin</servlet-name>
+		<url-pattern>/OtpLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Vegetable_Yield_Deamand_Calculation</servlet-name>
+		<servlet-class>com.user.Vegetable_Yield_Deamand_Calculation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Vegetable_Yield_Deamand_Calculation</servlet-name>
+		<url-pattern>/Vegetable_Yield_Deamand_Calculation</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Grains_Yield_Deamand_Calculation</servlet-name>
+		<servlet-class>com.user.Grains_Yield_Deamand_Calculation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Grains_Yield_Deamand_Calculation</servlet-name>
+		<url-pattern>/Grains_Yield_Deamand_Calculation</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>New_Demand_Update</servlet-name>
+		<servlet-class>com.user.New_Demand_Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>New_Demand_Update</servlet-name>
+		<url-pattern>/New_Demand_Update</url-pattern>
+	</servlet-mapping>
+	
+	
+	</web-app>
